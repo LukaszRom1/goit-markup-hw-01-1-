@@ -159,7 +159,7 @@ body {
     color: var(--cloud);
     letter-spacing: 0.02em;
 }
-.portfolio-filtr-button{
+.portfolio_filtr_button{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -169,9 +169,31 @@ body {
     background-color: var(--cloud);
     cursor: pointer;
 }
-.portfolio-filtr-button:hover{
+.portfolio_filtr_button:hover{
     color: var(--white);
+    background-color: var(--ocean);
 }
-.portfolio-filtr-button:focus{
+.portfolio_filtr_button:focus{
     color: var(--white);
+    background-color: var(--ocean);
+}
+.portfolio_main_section_header{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+.portfolio_main_list_header{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--navy-blue);
+}
+.portfolio_main_list_paragraph{
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--slate);
 }
