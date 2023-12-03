@@ -148,3 +148,14 @@ body {
     letter-spacing: 0.02em;
     color: var(--slate);
 }
+.footer{
+    background-color: var(--navy-blue);
+}
+.footer_span{
+    color: var(--cloud);
+}
+.footer_paragraph{
+    line-height: 1.5;
+    color: var(--cloud);
+    letter-spacing: 0.02em;
+}
