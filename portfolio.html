@@ -1,132 +1,133 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Main Page</title>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet" />
+    <title>Portfolio</title>
+    <!--Google fonts links-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700;800&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet" />
+    <!--End Google fonts links-->
+
     <link rel="stylesheet" href="./css/styles.css" />
-</head>
+ </head>
 
 <body>
     <header>
-        <nav>
-            <a href="./index.html" class="logo link">
-                WEB<span class="studio-color">Studio</span>
-            </a>
+    <nav>
+        <a href="./index.html" class="logo link">Web<span class="logo_span">Studio</span></a>
+        <ul class="list">
+            <li><a href="./index.html" class="logo_link link">Studio</a></li>
+            <li><a href="./portfolio.html" class="logo_link link">Portfolio</a></li>
+            <li><a href="" class="logo_link link">Contact</a></li>
+        </ul>
+    </nav>
+        <address class="address">
             <ul class="list">
                 <li>
-                    <a href="./index.html" class="logo-class font link">Studio</a>
+                    <a href="mail:info@devstudio.com" class="address_list link">info@devstudio.com</a>
                 </li>
                 <li>
-                    <a href="./portfolio.html" class="logo-class font link">Portfolio</a>
-                </li>
-                <li>
-                    <a href="" class="logo-class font link">Contacts</a>
-                </li>
-            </ul>
-        </nav>
-        <address class="address-details">
-            <ul class="list">
-                <li>
-                    <a href="mailto:info@devstudio.com" class="li-links link">info@devstudio.com</a>
-                </li>
-                <li>
-                    <a href="tel:+110001111111" class="li-links link">+11 (000) 111-11-11</a>
+                    <a href="tel:48111111111" class="address_list link">+48 111 111 111</a>
                 </li>
             </ul>
         </address>
     </header>
     <main>
         <section>
-            <h1>nagłówek linki</h1>
+            <h1 class="portfolio_main_section_header">Portfolio</h1>
             <ul class="list">
-                <li><button type="button" class="style-button">All</button></li>
-                <li><button type="button" class="style-button">Web Site</button></li>
-                <li><button type="button" class="style-button">App</button></li>
-                <li><button type="button" class="style-button">Design</button></li>
-                <li><button type="button" class="style-button">Marketing</button></li>
+                <li><button type="button" class="portfolio_filtr_button">All</button></li>
+                <li><button type="button" class="portfolio_filtr_button">Web Site</button></li>
+                <li><button type="button" class="portfolio_filtr_button">App</button></li>
+                <li><button type="button" class="portfolio_filtr_button">Design</button></li>
+                <li><button type="button" class="portfolio_filtr_button">Marketing</button></li>
             </ul>
             <ul class="list">
                 <li>
-                    <a class="link">
-                        <img src="./images/aplikacjabanku.jpg" alt="aplikacja banku" width="360" height="300" />
+                    <a href="" class="link">
+                        <img src="./images/banking-app-interface-concept.jpg" alt="banking-app-interface-concept"
+                            width="360" height="300" />
+                        <h2 class="portfolio_main_list_header">Banking App Interface Concept</h2>
+                        <p class="portfolio_main_list_paragraph">App</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="link">
+                        <img src="./images/cashless-payment.jpg" alt="Cashless Payment" width="360" height="300" />
+                        <h2 class="portfolio_main_list_header">Cashless Payment</h2>
+                        <p class="portfolio_main_list_paragraph">Marketing</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="link">
+                        <img src="./images/meditation-app.jpg" alt="Meditaion App" width="360" height="300" />
 
-                        <h2 class="sol-class">Banking App Interface Concept</h2>
-                        <p class="class-port">App</p>
+                        <h2 class="portfolio_main_list_header">Meditation App</h2>
+                        <p class="portfolio_main_list_paragraph">App</p>
                     </a>
                 </li>
                 <li>
-                    <a class="link">
-                        <img src="./images/platnosc.jpg" alt="platosc zblizeniowa" width="360" height="300" />
-                        <h2 class="sol-class">Cashless Payment</h2>
-                        <p class="class-port">Marketing</p>
+                    <a href="" class="link">
+                        <img src="./images/taki-service.jpg" alt="Taxi Service" width="360" height="300" />
+
+                        <h2 class="portfolio_main_list_header">Taxi Service</h2>
+                        <p class="portfolio_main_list_paragraph">Marketing</p>
                     </a>
                 </li>
                 <li>
-                    <a class="link">
-                        <img src="./images/aplikacjelaczenie.jpg" alt="meditation app" width="360" height="300" />
-                        <h2 class="sol-class">Meditation App</h2>
-                        <p class="class-port">App</p>
+                    <a href="" class="link">
+                        <img src="./images/screen-illustrations.jpg" alt="Screen Illustrations" width="360"
+                            height="300" />
+                        <h2 class="portfolio_main_list_header">Screen Illustrations</h2>
+                        <p class="portfolio_main_list_paragraph">Design</p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="" class="link">
+                        <img src="./images/online-courses.jpg" alt="Online courses" width="360" height="300" />
+                        <h2 class="portfolio_main_list_header">Online Courses</h2>
+                        <p class="portfolio_main_list_paragraph">Marketing</p>
                     </a>
                 </li>
                 <li>
-                    <a class="link">
-                        <img src="./images/taxi.jpg" alt="serwis taksowek" width="360" height="300" />
-                        <h2 class="sol-class">Taxi Service</h2>
-                        <p class="class-port">Marketing</p>
+                    <a href="" class="link">
+                        <img src="./images/instagram-stories-concept.jpg" alt="Instagram Stories Concept" width="360"
+                            height="300" />
+                        <h2 class="portfolio_main_list_header">Instagram Stories Concept</h2>
+                        <p class="portfolio_main_list_paragraph">Design</p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="" class="link">
+                        <img src="./images/organic-food.jpg" alt="Organic Food" width="360" height="300" />
+                        <h2 class="portfolio_main_list_header">Organic Food</h2>
+                        <p class="portfolio_main_list_paragraph">Web Site</p>
                     </a>
                 </li>
                 <li>
-                    <a class="link">
-                        <img src="./images/ilustracje.jpg" alt="obrazy wyswietlacza" width="360" height="300" />
-                        <h2 class="sol-class">Screen Illustrations</h2>
-                        <p class="class-port">Design</p>
-                    </a>
-                </li>
-                <li>
-                    <a class="link">
-                        <img src="./images/babeczka.jpg" alt="pani zadowolona z zycia" width="360" height="300" />
-                        <h2 class="sol-class">Online Courses</h2>
-                        <p class="class-port">Marketing</p>
-                    </a>
-                </li>
-                <li>
-                    <a class="link">
-                        <img src="./images/instagram.jpg" alt="story na instagramie" width="360" height="300" />
-                        <h2 class="sol-class">Instagram Stories Concept</h2>
-                        <p class="class-port">Design</p>
-                    </a>
-                </li>
-                <li>
-                    <a class="link">
-                        <img src="./images/zakupki.jpg" alt="zdrowa zywnosc ekologiczna" width="360" height="300" />
-                        <h2 class="sol-class">Organic Food</h2>
-                        <p class="class-port">Web Site</p>
-                    </a>
-                </li>
-                <li>
-                    <a class="link">
-                        <img src="./images/kawka.jpg" alt="kawa z mlekiem" width="360" height="300" />
-                        <h2 class="sol-class">Fresh Coffee</h2>
-                        <p class="class-port">Web Site</p>
+                    <a href="" class="link">
+                        <img src="./images/fresh-coffee.jpg" alt="Fresh Coffee" width="360" height="300" />
+
+                        <h2 class="portfolio_main_list_header">Fresh Coffee</h2>
+                        <p class="portfolio_main_list_paragraph">Web Site</p>
                     </a>
                 </li>
             </ul>
         </section>
     </main>
-    <footer class="portfolio-footer">
-        <a class="logo link" href="./index.html">Web<span class="studio-class">Studio</span></a>
-        <p class="footer-acapit">
-            Increase the flow of customers and sales for your business with digital
+    <footer class="footer">
+        <a href="WebStudio" class="logo link">Web<span class="footer_span">Studio</span></a>
+        <p class="footer-paragrapf">
+            Increase the flow of customers and <br />
+            sales for your business with digital<br />
             marketing & growth solutions.
         </p>
     </footer>
 </body>
-
 </html>
