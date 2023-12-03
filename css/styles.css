@@ -38,3 +38,40 @@ body {
 .link {
     text-decoration: none;
 }
+
+.logo_span{
+    color: var(--navy-blue);
+
+}
+.list{
+    list-style: none;
+}
+.logo_link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+.logo_link:hover{
+    color: var(--ocean);
+}
+.logo_link:focus{
+    color: var(--ocean);
+}
+.address{
+    font-style: normal;
+
+}
+.address_list{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+.address_list:hover{
+    color: var(--ocean);
+}
+.address_list:focus{
+    color: var(--ocean);
+}
