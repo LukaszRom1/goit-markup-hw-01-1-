@@ -75,3 +75,29 @@ body {
 .address_list:focus{
     color: var(--ocean);
 }
+.main_section{
+    background-color: var(--navy-blue);
+}
+.main_section_header{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--white);
+}
+.main_section_button{
+    background-color: var(--iris);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white);
+    cursor: pointer;
+}
+.main_section_button:hover{
+    background-color: var(--ocean);
+}
+.main_section_button:focus{
+    background-color: var(--ocean);
+}
